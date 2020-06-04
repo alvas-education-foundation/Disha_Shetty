@@ -1,0 +1,7 @@
+Python program to combine the strings
+
+
+Str1=input("enter string")
+Str2 = input("enter string")
+Str1 += Str2 
+print("The combined string is : " +Str1)
