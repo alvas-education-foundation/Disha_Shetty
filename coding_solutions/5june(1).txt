@@ -1,0 +1,16 @@
+Python program to square each odd number in the list 
+
+
+list =[]
+n=int(input("enter the no of elements"))
+for i in range(0,n):
+  ele=int(input())
+  list.append(ele)
+
+even,odd = [],[]
+for i in list:
+  if i%2==0:
+    even.append(i*i) 
+  else: 
+      odd.append(i*i)
+print(odd)
