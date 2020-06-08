@@ -1,0 +1,30 @@
+#include <bits/stdc++.h> 
+using namespace std; 
+  
+Program to check whether a number can be represented by the difference of two squares 
+
+
+bool difSquare(int n) 
+{ 
+    // Checking if n % 4 = 2 or not 
+    if (n % 4 != 2) { 
+        return true; 
+    } 
+  
+    return false; 
+} 
+int main() 
+{ 
+  
+    int n,number;
+    cin>>number;
+    for(int i=0;i<number;i++)
+    {cin>>n;
+    if (difSquare(n)) { 
+        cout << "Yes\n"; 
+    } 
+    else { 
+        cout << "No\n"; 
+    } }
+    return 0; 
+} 
